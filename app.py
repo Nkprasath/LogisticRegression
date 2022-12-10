@@ -7,7 +7,7 @@ from htbuilder.funcs import rgba, rgb
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
-st.header("Prediction of Drug Efficacy Using Regressor Methods")
+st.header("Prediction of Drug Efficacy Using Regression Methods")
 
 
 df = pd.read_csv("ProModel.csv")
