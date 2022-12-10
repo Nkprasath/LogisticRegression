@@ -18,7 +18,7 @@ regressor = LinearRegression()
 regressor.fit(x, y)
 
 
-uploaded = st.file_uploader("Upload spreadsheet", type=["csv", "xlsx"])
+uploaded = st.file_uploader("Upload Test.csv", type=["csv"])
 if uploaded:
     if st.button("Predict"):
         test = pd.read_csv(uploaded)
